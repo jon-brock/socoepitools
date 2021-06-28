@@ -1,0 +1,19 @@
+Package: socoepitools
+Title: R Tools for the Sonoma County Epidemiology Team
+Version: 0.0.0.1
+Authors@R: c(
+    person("Jon", "Brock", role = c("aut", "cre"), email = "jonathan.brock@sonoma-county.org"),
+    person("Julia", "Rubin", role = "ctb", email = "julia.rubin@sonoma-county.org"),
+    person("Aleksander", "Bukatko", role = "ctb", email = "aleksander.bukatko@sonoma-county.org"),
+    person("Kathryn", "Pack", role = "ctb", email = "kathryn.pack@sonoma-county.org"),
+    person("Lucinda", "Gardener", role = "ctb", email = "lucinda.gardeher@sonoma-county.org"),
+    person("Jenny", "Mercado", role = "ctb", email = "jenny.mercado@sonoma-county.org"),
+    person("Robin", "Hauschner", role = "ctb", email = "robin.hauschner@sonoma-county.org"))
+Description: This package is designed to accomodate the Epidemiologists working for the Sonoma County Department of Human Services.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: janitor (>= 2.1.0), lubridate (>= 1.7.10), tidyverse (<= 1.3.1)
